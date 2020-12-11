@@ -24,4 +24,4 @@ wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b)
 ```
 wordCounts.saveAsTextFile("Result")
 ```
-![](output.png)
+![](Output.PNG)
